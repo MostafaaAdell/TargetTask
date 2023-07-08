@@ -7,25 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458918672A58383400B74615 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 458918662A58383400B74615 /* Inceptionv3.mlmodel */; };
+		458918692A58397100B74615 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458918682A58397100B74615 /* ImageViewController.swift */; };
+		4589186B2A58477000B74615 /* ChooseViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4589186A2A58477000B74615 /* ChooseViewNavigation.swift */; };
 		459210992A576DC100763D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459210982A576DC100763D91 /* AppDelegate.swift */; };
 		4592109B2A576DC100763D91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592109A2A576DC100763D91 /* SceneDelegate.swift */; };
-		4592109D2A576DC100763D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592109C2A576DC100763D91 /* ViewController.swift */; };
+		4592109D2A576DC100763D91 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592109C2A576DC100763D91 /* WelcomeViewController.swift */; };
 		459210A02A576DC100763D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4592109E2A576DC100763D91 /* Main.storyboard */; };
 		459210A32A576DC100763D91 /* InterviewTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 459210A12A576DC100763D91 /* InterviewTask.xcdatamodeld */; };
 		459210A52A576DC300763D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459210A42A576DC300763D91 /* Assets.xcassets */; };
 		459210A82A576DC300763D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459210A62A576DC300763D91 /* LaunchScreen.storyboard */; };
+		459210B12A577CE200763D91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 459210B02A577CE200763D91 /* GoogleService-Info.plist */; };
+		459210B52A57915B00763D91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459210B42A57915B00763D91 /* Constants.swift */; };
+		459210B72A5799DC00763D91 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459210B62A5799DC00763D91 /* RegisterViewController.swift */; };
+		459210B92A5799F400763D91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459210B82A5799F400763D91 /* LoginViewController.swift */; };
+		459210BC2A57B20E00763D91 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 459210BB2A57B20E00763D91 /* IQKeyboardManagerSwift */; };
+		45A28B302A58571100A7C2ED /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A28B2F2A58571100A7C2ED /* Movie.swift */; };
+		45A28B322A585BBE00A7C2ED /* MovieCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A28B312A585BBE00A7C2ED /* MovieCollectionView.swift */; };
+		45A28B342A585BF800A7C2ED /* DetailsMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A28B332A585BF800A7C2ED /* DetailsMovieController.swift */; };
+		45A28B362A585D4900A7C2ED /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A28B352A585D4900A7C2ED /* MovieCell.swift */; };
+		FAAFE9E5A89C22BA22ACF34A /* Pods_InterviewTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897D20AFE21F8E1100CB3715 /* Pods_InterviewTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		458918662A58383400B74615 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		458918682A58397100B74615 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4589186A2A58477000B74615 /* ChooseViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewNavigation.swift; sourceTree = "<group>"; };
 		459210952A576DC100763D91 /* InterviewTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459210982A576DC100763D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4592109A2A576DC100763D91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4592109C2A576DC100763D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4592109C2A576DC100763D91 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4592109F2A576DC100763D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		459210A22A576DC100763D91 /* InterviewTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterviewTask.xcdatamodel; sourceTree = "<group>"; };
 		459210A42A576DC300763D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459210A72A576DC300763D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459210A92A576DC300763D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459210B02A577CE200763D91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		459210B42A57915B00763D91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		459210B62A5799DC00763D91 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		459210B82A5799F400763D91 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45A28B2F2A58571100A7C2ED /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		45A28B312A585BBE00A7C2ED /* MovieCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionView.swift; sourceTree = "<group>"; };
+		45A28B332A585BF800A7C2ED /* DetailsMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieController.swift; sourceTree = "<group>"; };
+		45A28B352A585D4900A7C2ED /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		897D20AFE21F8E1100CB3715 /* Pods_InterviewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A881458BFD571E36F1005A83 /* Pods-InterviewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.release.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.release.xcconfig"; sourceTree = "<group>"; };
+		BE37526F9F656BB2F53E471D /* Pods-InterviewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.debug.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAFE9E5A89C22BA22ACF34A /* Pods_InterviewTask.framework in Frameworks */,
+				459210BC2A57B20E00763D91 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,8 @@
 			children = (
 				459210972A576DC100763D91 /* InterviewTask */,
 				459210962A576DC100763D91 /* Products */,
+				FA9B9BE1ED4E34CAD1A24154 /* Pods */,
+				B9022522CCD46EAF49AC73B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +91,66 @@
 			children = (
 				459210982A576DC100763D91 /* AppDelegate.swift */,
 				4592109A2A576DC100763D91 /* SceneDelegate.swift */,
-				4592109C2A576DC100763D91 /* ViewController.swift */,
-				4592109E2A576DC100763D91 /* Main.storyboard */,
-				459210A42A576DC300763D91 /* Assets.xcassets */,
+				459210B22A5789A200763D91 /* Controller */,
+				459210B32A578A4400763D91 /* View */,
+				459210AF2A57706E00763D91 /* Model */,
 				459210A62A576DC300763D91 /* LaunchScreen.storyboard */,
 				459210A92A576DC300763D91 /* Info.plist */,
+				459210B02A577CE200763D91 /* GoogleService-Info.plist */,
 				459210A12A576DC100763D91 /* InterviewTask.xcdatamodeld */,
 			);
 			path = InterviewTask;
+			sourceTree = "<group>";
+		};
+		459210AF2A57706E00763D91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				458918662A58383400B74615 /* Inceptionv3.mlmodel */,
+				459210A42A576DC300763D91 /* Assets.xcassets */,
+				459210B42A57915B00763D91 /* Constants.swift */,
+				45A28B2F2A58571100A7C2ED /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		459210B22A5789A200763D91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4592109C2A576DC100763D91 /* WelcomeViewController.swift */,
+				459210B62A5799DC00763D91 /* RegisterViewController.swift */,
+				459210B82A5799F400763D91 /* LoginViewController.swift */,
+				4589186A2A58477000B74615 /* ChooseViewNavigation.swift */,
+				458918682A58397100B74615 /* ImageViewController.swift */,
+				45A28B312A585BBE00A7C2ED /* MovieCollectionView.swift */,
+				45A28B332A585BF800A7C2ED /* DetailsMovieController.swift */,
+				45A28B352A585D4900A7C2ED /* MovieCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		459210B32A578A4400763D91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4592109E2A576DC100763D91 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9022522CCD46EAF49AC73B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				897D20AFE21F8E1100CB3715 /* Pods_InterviewTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9B9BE1ED4E34CAD1A24154 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE37526F9F656BB2F53E471D /* Pods-InterviewTask.debug.xcconfig */,
+				A881458BFD571E36F1005A83 /* Pods-InterviewTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +160,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 459210AC2A576DC300763D91 /* Build configuration list for PBXNativeTarget "InterviewTask" */;
 			buildPhases = (
+				188DCB48F6EAAE62FBF404B2 /* [CP] Check Pods Manifest.lock */,
 				459210912A576DC100763D91 /* Sources */,
 				459210922A576DC100763D91 /* Frameworks */,
 				459210932A576DC100763D91 /* Resources */,
+				7B35B279CFE6D52C569BA400 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = InterviewTask;
+			packageProductDependencies = (
+				459210BB2A57B20E00763D91 /* IQKeyboardManagerSwift */,
+			);
 			productName = InterviewTask;
 			productReference = 459210952A576DC100763D91 /* InterviewTask.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 4592108C2A576DC100763D91;
+			packageReferences = (
+				459210BA2A57B20E00763D91 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 459210962A576DC100763D91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				459210A82A576DC300763D91 /* LaunchScreen.storyboard in Resources */,
+				459210B12A577CE200763D91 /* GoogleService-Info.plist in Resources */,
 				459210A52A576DC300763D91 /* Assets.xcassets in Resources */,
 				459210A02A576DC100763D91 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +228,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		188DCB48F6EAAE62FBF404B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterviewTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B35B279CFE6D52C569BA400 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterviewTask/Pods-InterviewTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterviewTask/Pods-InterviewTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterviewTask/Pods-InterviewTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		459210912A576DC100763D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4592109D2A576DC100763D91 /* ViewController.swift in Sources */,
+				45A28B362A585D4900A7C2ED /* MovieCell.swift in Sources */,
+				459210B92A5799F400763D91 /* LoginViewController.swift in Sources */,
+				4592109D2A576DC100763D91 /* WelcomeViewController.swift in Sources */,
+				459210B52A57915B00763D91 /* Constants.swift in Sources */,
 				459210992A576DC100763D91 /* AppDelegate.swift in Sources */,
+				459210B72A5799DC00763D91 /* RegisterViewController.swift in Sources */,
+				45A28B342A585BF800A7C2ED /* DetailsMovieController.swift in Sources */,
+				458918692A58397100B74615 /* ImageViewController.swift in Sources */,
+				458918672A58383400B74615 /* Inceptionv3.mlmodel in Sources */,
+				4589186B2A58477000B74615 /* ChooseViewNavigation.swift in Sources */,
 				459210A32A576DC100763D91 /* InterviewTask.xcdatamodeld in Sources */,
+				45A28B302A58571100A7C2ED /* Movie.swift in Sources */,
 				4592109B2A576DC100763D91 /* SceneDelegate.swift in Sources */,
+				45A28B322A585BBE00A7C2ED /* MovieCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +430,7 @@
 		};
 		459210AD2A576DC300763D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE37526F9F656BB2F53E471D /* Pods-InterviewTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +444,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +460,7 @@
 		};
 		459210AE2A576DC300763D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A881458BFD571E36F1005A83 /* Pods-InterviewTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,6 +474,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +510,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		459210BA2A57B20E00763D91 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		459210BB2A57B20E00763D91 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 459210BA2A57B20E00763D91 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		459210A12A576DC100763D91 /* InterviewTask.xcdatamodeld */ = {
