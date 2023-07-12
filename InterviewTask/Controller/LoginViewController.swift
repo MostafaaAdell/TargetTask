@@ -30,6 +30,8 @@ class LoginViewController: UIViewController {
                         Constants.showErrorAlert(message: "Invalid username or password", viewController: self)
                         
                     }else{
+                        self.emailTextfield.text = ""
+                        self.passwordTextfield.text = ""
                         self.performSegue(withIdentifier: Constants.loginIdent, sender: self)
                     
                 }

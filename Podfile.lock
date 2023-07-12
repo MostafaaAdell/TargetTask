@@ -635,28 +635,28 @@ PODS:
     - BoringSSL-GRPC/Interface (= 0.0.24)
   - BoringSSL-GRPC/Interface (0.0.24)
   - CLTypingLabel (0.4.0)
-  - Firebase/Auth (10.11.0):
+  - Firebase/Auth (10.12.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 10.11.0)
-  - Firebase/CoreOnly (10.11.0):
-    - FirebaseCore (= 10.11.0)
-  - Firebase/Firestore (10.11.0):
+    - FirebaseAuth (~> 10.12.0)
+  - Firebase/CoreOnly (10.12.0):
+    - FirebaseCore (= 10.12.0)
+  - Firebase/Firestore (10.12.0):
     - Firebase/CoreOnly
-    - FirebaseFirestore (~> 10.11.0)
-  - FirebaseAppCheckInterop (10.11.0)
-  - FirebaseAuth (10.11.0):
+    - FirebaseFirestore (~> 10.12.0)
+  - FirebaseAppCheckInterop (10.12.0)
+  - FirebaseAuth (10.12.0):
     - FirebaseAppCheckInterop (~> 10.0)
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/Environment (~> 7.8)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
-  - FirebaseCore (10.11.0):
+  - FirebaseCore (10.12.0):
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.8)
-  - FirebaseCoreInternal (10.11.0):
+  - FirebaseCoreInternal (10.12.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseFirestore (10.11.0):
+  - FirebaseFirestore (10.12.0):
     - abseil/algorithm (~> 1.20220623.0)
     - abseil/base (~> 1.20220623.0)
     - abseil/container/flat_hash_map (~> 1.20220623.0)
@@ -787,12 +787,12 @@ SPEC CHECKSUMS:
   abseil: 926fb7a82dc6d2b8e1f2ed7f3a718bce691d1e46
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
   CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
-  Firebase: 31d9575c124839fb5abc0db6d39511cc1dab1b85
-  FirebaseAppCheckInterop: 255b6c0292fe5da995c8b2df0c02f6a3ca7f61b4
-  FirebaseAuth: 7aabcb00fbf330db49c207c0d645b8b1b62df0e9
-  FirebaseCore: 62fd4d549f5e3f3bd52b7998721c5fa0557fb355
-  FirebaseCoreInternal: 9e46c82a14a3b3a25be4e1e151ce6d21536b89c0
-  FirebaseFirestore: 09be82b113fbcb225b9797d2c525ae8886abc7a3
+  Firebase: 07150e75d142fb9399f6777fa56a187b17f833a0
+  FirebaseAppCheckInterop: f95a4feb9089867aff1a4bdc2ce309137e07736a
+  FirebaseAuth: a66c1e14ec58f41d154a4b41ce1a23ea00ad4805
+  FirebaseCore: f86a1394906b97ac445ae49c92552a9425831bed
+  FirebaseCoreInternal: 950500ad8a08963657f6d8c67b579740c06d6aa1
+  FirebaseFirestore: f94c9541515fa4a49af52269bbc50349009424b4
   GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
   "gRPC-C++": 0968bace703459fd3e5dcb0b2bed4c573dbff046
   gRPC-Core: 17108291d84332196d3c8466b48f016fc17d816d
@@ -802,6 +802,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
 
-PODFILE CHECKSUM: 1af254bc44a885e7d137ac6b7552e0a88503c5b5
+PODFILE CHECKSUM: 726649edfda5e34e0d946adfcb1f9a75504e6257
 
 COCOAPODS: 1.12.1

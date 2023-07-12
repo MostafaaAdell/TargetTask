@@ -25,7 +25,8 @@ class RegisterViewController: UIViewController {
                 if let _ = error {
                     Constants.showErrorAlert(message: "Invalid username or password", viewController: self)
                 }else{
-                   // self.shouldPerformSegue(withIdentifier: Constants.registerIdent, sender: self)
+                    self.emailTextfield.text = ""
+                    self.passwordTextfield.text = ""
                     self.performSegue(withIdentifier: Constants.registerIdent, sender: self)
 
                     
